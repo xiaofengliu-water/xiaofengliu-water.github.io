@@ -16,15 +16,6 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-<p style="margin: 1rem 0;">
-  <a class="btn" href="{{ '/assets/Xiaofeng_Liu_CV.pdf' | relative_url }}" target="_blank" rel="noopener">
-    Download CV (PDF)
-  </a>
-  <!-- Optional: a simple text link too -->
-  <span style="margin-left: 10px;">
-    <a href="{{ '/assets/Xiaofeng_Liu_CV.pdf' | relative_url }}" download>Save copy</a>
-  </span>
-</p>
 
 My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
@@ -60,3 +51,14 @@ My research interest includes neural machine translation and computer vision. I 
 # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+
+# 💬 CV
+<p style="margin: 1rem 0;">
+  <a class="btn" href="{{ '/assets/Xiaofeng_Liu_CV.pdf' | relative_url }}" target="_blank" rel="noopener">
+    Download CV (PDF)
+  </a>
+  <!-- Optional: a simple text link too -->
+  <span style="margin-left: 10px;">
+    <a href="{{ '/assets/Xiaofeng_Liu_CV.pdf' | relative_url }}" download>Save copy</a>
+  </span>
+</p>
